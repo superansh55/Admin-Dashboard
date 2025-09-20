@@ -112,7 +112,7 @@ nav {
 
 .articles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 15px;
 }
 
@@ -139,6 +139,7 @@ nav {
      background-color:  #FFFDD0;
      border-radius: 10px;
      padding: 10px;
+     
 }
 
 .trending {
@@ -244,8 +245,8 @@ li {
   border-radius: 10px;
   box-shadow: rgb(82, 78, 78) 5px 5px 5px;
     background-color:  #FFFDD0;
-  height: auto;
   padding: 20px;
+    border-left: 5px solid  #FC5A8D;
 }
 
 .articles h4 {
