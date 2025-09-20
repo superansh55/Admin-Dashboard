@@ -48,9 +48,10 @@ a {
 }
 
 .head_content2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 300px;
+  
+    display: flex;
+    justify-content: space-between;
+  padding-right: 50px;
   font-weight: bold;
 }
 
@@ -58,6 +59,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  gap: 30px;
 }
 
 .btn {
@@ -189,7 +191,7 @@ li {
 .head_content2_1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
+ gap: 10px;
   align-items: center;
 }
 
