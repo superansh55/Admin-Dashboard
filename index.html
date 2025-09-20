@@ -7,38 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="container">
+    <header class="header">
+        <div class="head_content1">
         <input type="search" name="search" id="search">
         <p>Ansh Pandey</p>
+        </div>
+        <div class="head_content2">
+            <div>
         <p>Hi there,<h1>Ansh Pandey</h1>
         </p>
-        <div role="toolbar" aria-label="Document Actions">
-  <button type="button">New</button>
-  <button type="button">Upload</button>
-  <button type="button">Share</button>
+        </div>
+        <div class="btn_group">
+           
+  <button type="button" class="btn">New</button>
+
+  <button type="button" class="btn">Upload</button>
+  <button type="button" class="btn">Share</button>
+</div>
 </div>
     </header>
-<aside>
+<aside class="sidebar">
     <div>Dashboard</div>
-    <nav>
-        <div>
-            <a href="">Home</a>
-            <a href="">Profile</a>
-            <a href="">Messages</a>
-            <a href="">History</a>
-            <a href="">Tasks</a>
-            <a href="">Communities</a>
-        </div>
-        <div>
-            <a href="">Settings</a>
-            <a href="">Support</a>
-            <a href="">Privacy</a>
-        </div4
+    <nav class="nav">
+        <ul class="link_group">
+            <li><a href="">Home</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Messages</a></li>
+            <li><a href="">History</a></li>
+            <li><a href="">Tasks</a></li>
+            <li><a href="">Communities</a></li>
+        </ul>
+        <ul class="link_group">
+        
+            <li><a href="">Settings</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Privacy</a></li>
+        
+        </ul>
     </nav>
 </aside>
-<main>
-    <section>
-        <h3>Your Projects</h3>
+<main class="main">
+    <section class="main_content">
+        <div class="main_content_heading"><h3>Your Projects</h3></div>
+        <div class="articles">
         <article>
             <h4>Super Cool Project</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio aliquam dolore obcaecati maxime, iusto eum iste nostrum vero in incidunt? Tempore voluptas blanditiis consequuntur nihil commodi, hic architecto doloremque quae!</p>
@@ -63,10 +75,12 @@
             <h4>Super Cool Project</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio aliquam dolore obcaecati maxime, iusto eum iste nostrum vero in incidunt? Tempore voluptas blanditiis consequuntur nihil commodi, hic architecto doloremque quae!</p>
         </article>
+        </div>
     </section>
-    <section>
-        <section>
+    <section class="side_content">
+        <section class="announcements">
         <h3>Announcements</h3>
+        <div class="side_articles">
         <article>
             <h4>Site Maintenance</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt obcaecati, fugit ea impedit quas similique cumque aperiam nihil dicta voluptas.</p>
@@ -79,19 +93,20 @@
             <h4>Updated Privacy Policy</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt obcaecati, fugit ea impedit quas similique cumque aperiam nihil dicta voluptas.</p>
         </article>
+        </div>
             </section>
 
-            <section>
+            <section class="trending">
                 <h3>Trending</h3>
-                <ul>
-                    <li>@tegan <a href="">World Peace Builder</a></li>
-                    <li>@Ansh <a href="">Super Cool Project</a></li>
-                    <li>@kendall <a href="">Life Chaning App</a></li>
-                    <li>@Alex <a href="">No Traffic Maker</a></li>
+                <ul class="trending_names">
+                    <li class="name_list">@tegan <a href="">World Peace Builder</a></li>
+                    <li class="name_list">@Ansh <a href="">Super Cool Project</a></li>
+                    <li class="name_list">@kendall <a href="">Life Chaning App</a></li>
+                    <li class="name_list">@Alex <a href="">No Traffic Maker</a></li>
                 </ul>
             </section>
     </section>
 </main>
-
+</div>
 </body>
 </html>
